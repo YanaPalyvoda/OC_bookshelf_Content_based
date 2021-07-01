@@ -1,0 +1,45 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "name": "interactionsBlob",
+      "type": "blob",
+      "path": "p9function-data/interactions.csv",
+      "dataType": "binary",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    },
+    {
+      "name": "articlesBlob",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "p9function-data/articles.csv",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    },
+    {
+      "name": "embeddingsBlob",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "p9function-data/articles_embeddings_cat.pickle",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    }
+
+  ]
+}
