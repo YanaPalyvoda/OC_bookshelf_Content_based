@@ -15,8 +15,8 @@ Content-based recommenders systems suggest similar articles based on a particula
 <b>Content</b>
 
 -	<a href="https://github.com/YanaPalyvoda/OC_bookshelf_Content_based/tree/main/bookshelf">bookshelf:</a> contains the code of the mobile application
-  Please refer to the readme file in this folder for setup
+  Please refer to the readme file in this folder to setup
   
--	<a href="https://github.com/YanaPalyvoda/OC_bookshelf_Content_based/tree/main/OC_azure_functions">OC_azure_functions:</a> contains the code of the HTTP request function: requirements file, configuration files and init file and he python code of the Content Based recomender model used by azure function
+-	<a href="https://github.com/YanaPalyvoda/OC_bookshelf_Content_based/tree/main/OC_azure_functions">OC_azure_functions:</a> contains the code of the HTTP request AZURE function: requirements file, configuration files and init file and the python code of the Content Based recommender model used by this function.
 
 
